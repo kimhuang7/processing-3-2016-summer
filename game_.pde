@@ -19,6 +19,11 @@ void setup ()
 void draw ()
 {
   background(bg);
+  fill(255);
+  text("-Move the creature by moving the mouse",150,370);
+  text("-If the creature touches the redball you lose all of your points",150,380);
+  text("-To score points, move your creature so it touches the green ball",150,390);
+  text("-If you touch a green ball with your creature, you get 100 points",150,400);
   creature();
   greenball();
   redball();
